@@ -1,0 +1,19 @@
+package com.hibernate.pojo;
+
+
+public class Actor {
+	
+	private int aid;
+	private String actorname;
+	
+	
+	public int getAid() {
+		return aid;
+	}
+	public void setAid(int aid) {
+		this.aid = aid;
+	}
+	
+	
+
+}

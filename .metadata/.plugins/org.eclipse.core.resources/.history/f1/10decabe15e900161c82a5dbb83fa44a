@@ -1,0 +1,18 @@
+package com.java.model;
+
+import javax.persistence.*;
+
+import org.hibernate.annotations.GenericGenerator;
+
+@Entity
+@Table(name = "studentDetail")
+public class StudentDetail {
+
+	@Id
+	@GeneratedValue(generator = "newGenerator")
+	
+	@GenericGenerator(name = "newGenerator", strategy = "foreign", parameters = @Parameter(name = "property", value = "stock"))
+	@Column(name = "studentId")
+	private int id;
+
+}

@@ -1,0 +1,15 @@
+package com.hibernate.pojo;
+
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+public class SelectData {
+
+	public static void main(String[] args) {
+		Session session = new Configuration().configure("hibernate.cfg.xml")
+				.buildSessionFactory().openSession();
+		
+	}
+
+}

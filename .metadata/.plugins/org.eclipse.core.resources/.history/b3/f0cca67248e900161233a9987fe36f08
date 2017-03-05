@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+ 
+<hibernate-mapping>
+<class name="com.hibernate.pojo.Vendor" table="vendor">
+<id name="vendorId">
+    <generator class="native"></generator>
+    </id>
+<property name="vendorName"/>
+<set name="customers" cascade="all" cascade="all" lazy="false">
+<key column="vendorId" not-null="true"></key>
+     <one-to-many class="com.hibernate.pojo.Player"/>
+<one-to-many class="str.Customer" />
+ 
+</set>
+ 
+</class>
+</hibernate-mapping>

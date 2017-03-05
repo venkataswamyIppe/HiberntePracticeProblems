@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.hibernate.Payment" table="payment"
+		schema="test">
+
+		<id name="paymentId" type="int" column="pid">
+			<generator class="native" />
+		</id>
+		
+		<property name="amount" />
+		<joined-subclass name="com.hibernate.CreditCard">
+		    <key column="pid">
+		    </key>
+		    <property name="CreditCardType" column="cctype" length="10" />
+		</joined-subclass>
+		<joined-subclass name="com.hibernate.Cheque">
+		    <key column="pid">
+		    </key>
+		    <property name="ChequeType" column="cheqtype" length="10" />
+		</joined-subclass>
+		<subclass name="com.hibernate.Cheque" discriminator-value="cheqe">
+			<property name="ChequeType" column="cheqtype" length="10" />
+		</subclass>
+
+	</class>
+</hibernate-mapping>

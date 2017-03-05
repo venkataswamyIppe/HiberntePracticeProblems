@@ -1,0 +1,46 @@
+package com.hibernate;
+
+import org.hibernate.HibernateException;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+public class StudentControl {
+	private static SessionFactory sessionFactory;
+	 
+    private Session getSession() {
+        Session s = null;
+        try {
+            sessionFactory = new Configuration().configure(
+                    "com\\xml\\hibernate.cfg.xml").buildSessionFactory();
+            s = sessionFactory.openSession();
+        } catch (HibernateException e) {
+            System.out.println(e.getMessage());
+        }
+        return s;
+    }
+    public void addNewStudent(String stuid, String stuname,
+            String stuemail,String marks) throws Exception {
+        try {
+            Session s = getSession();
+            Transaction tx = s.beginTransaction();
+            Student stu = new Student();
+ 
+            stu.setStuid(stuid);
+            stu.setStuname(stuname);
+            stu.setStuemail(stuemail);
+            stu.setStumarks(stumarks);
+            s.save(stu);
+ 
+            tx.commit();
+            System.out.println("\n\n Details Added \n");
+        } catch (HibernateException e) {
+            System.out.println(e.getMessage());
+            System.out.println("error");
+        }
+ 
+    }
+ 
+}// end of class
+

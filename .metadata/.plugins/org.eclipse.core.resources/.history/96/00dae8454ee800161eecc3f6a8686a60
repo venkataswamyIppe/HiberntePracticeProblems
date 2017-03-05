@@ -1,0 +1,38 @@
+package com.hibernate.pojo;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+public class OneToManyClient {
+
+	public static void main(String[] args) {
+		Session session=new Configuration().configure("hibernate.cfg.xml").buildSessionFactory().openSession();
+		Transaction tx=session.beginTransaction();
+		Player p1=new Player();
+		p1.setPname("sachin");
+		Player p2=new Player();
+		p2.setPname("dhoni");
+		Player p3=new Player();
+		p1.setPname("rohit");
+		session.save(p1);
+		session.save(p2);
+		session.save(p3);
+		session.flush();
+		
+		Set<Player>cplayers=new HashSet<Player>();
+		cplayers.add(p1);
+		cplayers.add(p2);
+		cplayers.add(p3);
+		
+		//add indian cricket team
+		Team t1=new Team();
+		t1.setTname("IndianCricket");
+		t1.setPlayers(cplayers);
+		tx.commit();
+	}
+
+}

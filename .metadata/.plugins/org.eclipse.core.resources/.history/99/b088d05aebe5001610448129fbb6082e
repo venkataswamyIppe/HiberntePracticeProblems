@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.hibernate.Employee" table="EMPLOYEE"
+		schema="hibernate">
+
+		<id name="id" type="int" column="eid">
+			<generator class="native" />
+		</id>
+		<property name="name" type="string" column="ename"></property>
+		<subclass name="com.hibernate.Regular_Employee"
+			discriminator-value="regular_employee">
+			<property name="salary"></property>
+			<property name="bonus"></property>
+		</subclass>
+		<subclass name="com.hibernate.Contract_Employee"
+			discriminator-value="contract_employee">
+			<property name="pay_per_hour"></property>
+			<property name="contract_duration"></property>
+		</subclass>
+	</class>
+</hibernate-mapping>

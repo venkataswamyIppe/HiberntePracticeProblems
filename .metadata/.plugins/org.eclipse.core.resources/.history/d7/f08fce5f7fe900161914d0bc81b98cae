@@ -1,0 +1,13 @@
+package com.hibernate.pojo;
+
+import java.util.Set;
+
+public class Course {
+	
+	private int courseId;
+	private String courseName;
+	private int duration;
+ 
+	private Set students;
+
+}

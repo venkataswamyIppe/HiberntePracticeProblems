@@ -1,0 +1,34 @@
+package com.hibernate;
+
+import java.util.List;
+import java.util.Map;
+
+import org.hibernate.Criteria;
+import org.hibernate.SQLQuery;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+public class ManageEmployee {
+	
+	 public static void main(String[] args) {
+		 
+		 Session session =new Configuration().configure("hibernate.cfg.xml").buildSessionFactory().openSession();
+		 Transaction tx=session.beginTransaction();
+		 //scalar queries
+		 String sql = "SELECT name, salary FROM EMPLOYEE";
+         SQLQuery query = session.createSQLQuery(sql);
+         query.setResultTransformer(Criteria.ALIAS_TO_ENTITY_MAP);
+         List data = query.list();
+
+         for(Object object : data)
+         {
+            Map row = (Map)object;
+            System.out.print("Name: " + row.get("first_name")); 
+            System.out.println("Salary: " + row.get("salary")); 
+         }
+		 session.close();
+		 
+	 }
+
+}

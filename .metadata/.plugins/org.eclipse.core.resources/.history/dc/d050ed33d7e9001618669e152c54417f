@@ -1,0 +1,8 @@
+package com.hibernate.pojo;
+
+@Entity  
+public class Book  
+{  
+  private Long bookId;  
+  private String bookName;  
+  private Set<Author> authors; 

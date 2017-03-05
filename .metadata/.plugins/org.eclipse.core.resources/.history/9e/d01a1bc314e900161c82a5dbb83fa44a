@@ -1,0 +1,10 @@
+package com.java.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="studentDetail")
+public class StudentDetail {
+
+}

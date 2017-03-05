@@ -1,0 +1,28 @@
+package com.hibernate;
+
+import java.util.Iterator;
+import java.util.List;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.cfg.Configuration;
+
+public class FetchData {
+
+	public static void main(String[] args) {
+		Session session=new Configuration().configure("hibernate.cfg.xml").buildSessionFactory().openSession();
+		
+		//Hibernate Named Query  
+	    Query query = session.getNamedQuery("MyQuery");   
+	    List<Employee> employees=query.list();
+	    System.out.println(employees.size());
+	    Iterator<Employee> itr=employees.iterator();  
+	     while(itr.hasNext()){  
+	    Employee e=itr.next();  
+	    System.out.println(e.getId()+" "+e.getName()+" "+e.getSalary());  
+	     }  
+	          
+	    session.close();  
+	}
+
+}

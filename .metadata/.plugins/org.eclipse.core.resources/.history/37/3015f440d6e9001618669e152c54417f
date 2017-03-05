@@ -1,0 +1,35 @@
+package com.hibernate.pojo;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+public class Client {
+
+	public static void main(String[] args) {
+		Configuration cfg = new Configuration();
+		cfg.configure("hibernate.cfg.xml");
+		SessionFactory factory = cfg.buildSessionFactory();
+		Session session = factory.openSession();
+
+		Set<Course> courses = new HashSet<Course>();
+		courses.add(new Course("Maths"));
+		courses.add(new Course("Computer Science"));
+
+		
+
+		Transaction tx = session.beginTransaction();
+		session.save(s1);
+		session.save(s2);
+		tx.commit();
+
+		session.close();
+		System.out.println("Many To Many Bi-Directional is Done..!!");
+		factory.close();
+	}
+
+}

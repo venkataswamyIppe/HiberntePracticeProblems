@@ -1,0 +1,15 @@
+package com.hibernate.pojo;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+@Entity
+@Table(name="DEPARTMENT111")
+public class Department {
+	@Id
+	@GeneratedValue
+	@Column(name="DEPARTMENT_ID")
+	private Long departmentId;
+
+}

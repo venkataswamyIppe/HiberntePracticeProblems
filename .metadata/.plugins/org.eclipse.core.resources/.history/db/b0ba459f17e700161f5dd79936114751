@@ -1,0 +1,58 @@
+package com.hibernate;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.Iterator;
+import java.util.List;
+
+import javax.servlet.ServletConfig;
+import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+import javax.servlet.http.HttpServlet;
+
+import org.hibernate.Criteria;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class Pagination extends HttpServlet {
+	private SessionFactory factory;
+
+	// init method started
+	public void init(ServletConfig config) throws ServletException {
+		factory = new Configuration().configure("hibernate.cfg.xml").buildSessionFactory();
+		System.out.println("Factory has been created....");
+	}
+	//init method end
+	//service method start
+	public void service(ServletRequest req, ServletResponse res)throws ServletException,IOException
+	{
+		int pageIndex = 0;
+		int totalNumberOfRecords = 0;
+		int numberOfRecordsPerPage =3;
+		String sPageIndex = req.getParameter("pageIndex");
+
+		if(sPageIndex ==null)
+		{
+			pageIndex = 1;
+		}
+		else
+		{
+			pageIndex = Integer.parseInt(sPageIndex);
+		}
+		Session ses = factory.openSession();
+		int s = (pageIndex*numberOfRecordsPerPage) -numberOfRecordsPerPage;
+
+		Criteria crit = ses.createCriteria(Product.class);
+		crit.setFirstResult(s);
+		crit.setMaxResults(numberOfRecordsPerPage);
+		List l = crit.list();
+		Iterator it = l.iterator();
+		PrintWriter pw = res.getWriter();
+		pw.println("<table border=1>");
+		pw.println("<tr>");
+		pw.println("<th>PID</th><th>PNAME</th><th>PRICE</th>");
+		pw.println("</tr>");
+
+}

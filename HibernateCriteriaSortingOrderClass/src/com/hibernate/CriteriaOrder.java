@@ -1,0 +1,37 @@
+package com.hibernate;
+
+import java.util.Iterator;
+import java.util.List;
+
+import org.hibernate.Criteria;
+import org.hibernate.Session;
+import org.hibernate.cfg.Configuration;
+import org.hibernate.criterion.Criterion;
+import org.hibernate.criterion.Order;
+import org.hibernate.criterion.Projection;
+import org.hibernate.criterion.Projections;
+import org.hibernate.criterion.Restrictions;
+
+public class CriteriaOrder {
+
+	public static void main(String[] args) {
+		Session session = new Configuration().configure("hibernate.cfg.xml").buildSessionFactory().openSession();
+		Criteria crit = session.createCriteria(Product.class);
+		Criterion cn=Restrictions.gt("price", new Double(1000));
+		crit.add(cn);
+		crit.addOrder(Order.asc("price"));
+		
+		List l=crit.list();
+		System.out.println("List total size :"+l.size());
+		Iterator it=l.iterator();
+ 
+		while(it.hasNext())
+		{
+			Product p=(Product)it.next();
+			System.out.print(p.getProductId()+" ");
+		}
+		session.close();
+
+	}
+
+}

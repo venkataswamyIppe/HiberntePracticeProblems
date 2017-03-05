@@ -1,0 +1,25 @@
+package com.java.model;
+
+import javax.persistence.*;
+
+import org.hibernate.annotations.GenericGenerator;
+
+@Entity
+@Table(name = "studentDetail")
+public class StudentDetail {
+
+	
+	
+	@GenericGenerator(name = "newGenerator", strategy = "foreign", parameters ={ @Parameter(name = "property", value = "student"))
+	@Id
+	@GeneratedValue(generator = "newGenerator")
+	@Column(name = "studentId")
+	private int id;
+	@Column(name = "studentMobile")
+	private String mobileNumber;
+	@OneToOne(cascade=CascadeType.ALL)
+	@JoinColumn(name="studentId")
+	private Student student;
+	
+
+}

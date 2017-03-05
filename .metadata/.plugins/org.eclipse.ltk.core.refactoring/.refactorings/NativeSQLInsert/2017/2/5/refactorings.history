@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;NativeSQLInsert/src/movie.hbm.xml&apos; to &apos;product.hbm.xml&apos;" description="Rename resource &apos;movie.hbm.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/movie.hbm.xml" name="product.hbm.xml" stamp="1486038160321" updateReferences="true"/>
+</session>

@@ -1,0 +1,56 @@
+package com.hibernate.pojo;
+
+import java.util.Set;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
+import javax.persistence.Table;
+@Entity
+@Table(name = "STUDENT01")
+public class Student {
+	
+	@Id
+	@GeneratedValue
+	@Column(name="student_Id")
+	private int studentId;
+	@Column(name="student_Name")
+	private String studentName;
+	@Column
+	private int marks;
+	private Set<Course> courses;
+	
+	
+	public int getStudentId() {
+		return studentId;
+	}
+	public void setStudentId(int studentId) {
+		this.studentId = studentId;
+	}
+	public String getStudentName() {
+		return studentName;
+	}
+	public void setStudentName(String studentName) {
+		this.studentName = studentName;
+	}
+	public int getMarks() {
+		return marks;
+	}
+	public void setMarks(int marks) {
+		this.marks = marks;
+	}
+	@ManyToMany(cascade = CascadeType.ALL)
+	@JoinTable(name = "STUDENT_COURSE01",joinColumns ={ @JoinColumn(name = "STUDENT_ID") },
+	public Set<Course> getCourses() {
+		return courses;
+	}
+	public void setCourses(Set<Course> courses) {
+		this.courses = courses;
+	}
+
+
+}

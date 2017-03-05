@@ -1,0 +1,246 @@
+package org.traccar.web.server.model;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.LinkedList;
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.TypedQuery;
+
+import org.apache.log4j.Logger;
+import org.traccar.web.shared.model.Role;
+import org.traccar.web.shared.model.User;
+
+public class UserService {
+
+	static Logger userLOG = Logger
+			.getLogger(org.traccar.web.server.model.UserService.class);
+	static SimpleDateFormat fmt = new SimpleDateFormat("yyyy-MM-dd");
+
+	public void createUser(EntityManager entityManager, User user) {
+		synchronized (entityManager) {
+			entityManager.getTransaction().begin();
+			try {
+				entityManager.persist(user);
+				entityManager.getTransaction().commit();
+			} catch (RuntimeException e) {
+				entityManager.getTransaction().rollback();
+				userLOG.warn(" Exception: " + e.getCause().getMessage());
+				e.printStackTrace();
+				throw e;
+			}
+		}
+	}
+
+	public String getUserNodes(User user, EntityManager entityManager) {
+
+		String strNodesList = null;
+
+		synchronized (entityManager) {
+
+			userLOG.info(" Following query will be be executed ");
+			userLOG.info(" SELECT x FROM Role x WHERE x.role = :userrole ");
+			TypedQuery<Role> query = entityManager
+					.createQuery(
+							"SELECT x FROM Role x WHERE x.role = :userrole",
+							Role.class);
+
+			userLOG.debug("User role--> " + user.getUserrole());
+			query.setParameter("userrole", user.getUserrole());
+			List<Role> results = query.getResultList();
+
+			for (Role roles : results) {
+
+				strNodesList = roles.getNodes();
+
+			}
+
+			userLOG.debug("Returning nodelist--?  " + strNodesList);
+			return strNodesList;
+		}
+	}
+
+	public User forgetPassword(EntityManager entityManager, String forgetName) {
+		System.out.println("Username: " + forgetName);
+
+		entityManager.clear();
+		synchronized (entityManager) {
+
+			
+			return null;
+
+			
+		}
+
+	}
+
+	public List<User> getUsers(User user, EntityManager entityManager)
+			throws Exception {
+
+		synchronized (entityManager) {
+			try {
+				List<User> users = new LinkedList<User>();
+
+				if (user.getUserrole().equalsIgnoreCase("admin")) {
+					userLOG.info(" Following query will be be executed ");
+					userLOG.info(" SELECT x FROM User x ");
+
+					users.addAll(entityManager.createQuery(
+							"SELECT x FROM User x", User.class).getResultList());
+				}
+
+				else {
+					userLOG.info(" Following query will be be executed ");
+					userLOG.info(" SELECT x FROM User x WHERE x.id= "
+							+ user.getId());
+
+					users.addAll(entityManager.createQuery(
+							"SELECT x FROM User x WHERE x.id=" + user.getId(),
+							User.class).getResultList());
+				}
+
+				return users;
+			} catch (Exception e) {
+				if (entityManager.getTransaction().isActive())
+					entityManager.getTransaction().rollback();
+				userLOG.warn(" Exception: " + e.getCause().getMessage());
+				e.printStackTrace();
+				throw new Exception(e.getCause().getMessage());
+			}
+		}
+	}
+
+	public User addUser(User user, User currentUser, EntityManager entityManager)
+			throws Exception {
+		if (user.getLogin().isEmpty() || user.getPassword().isEmpty()) {
+			throw new Exception("User/password is not provided");
+		}
+		// if (currentUser.getUserrole().equalsIgnoreCase("admin")) {
+		
+		synchronized (entityManager) {
+
+			// Add/update the user
+			userLOG.debug("user id is:" + user.getId());
+			// New User
+			if (user.getId() == 0) {
+				String login = user.getLogin();
+				userLOG.info(" Following query will be be executed ");
+				userLOG.info(" SELECT x FROM User x WHERE x.login = :login ");
+				TypedQuery<User> query = entityManager.createQuery(
+						"SELECT x FROM User x WHERE x.login = :login",
+						User.class);
+				query.setParameter("login", login);
+				List<User> results = query.getResultList();
+
+				if (results.isEmpty()) {
+					entityManager.getTransaction().begin();
+					try {
+						
+						user.setCreatedBy(currentUser.getLogin());
+						user.setCreatedOn(new Date());
+						entityManager.persist(user);
+						entityManager.getTransaction().commit();
+						return user;
+					} catch (RuntimeException e) {
+						if (entityManager.getTransaction().isActive())
+							entityManager.getTransaction().rollback();
+						userLOG.warn(" Exception: " + e.getCause().getMessage());
+						throw new Exception(e.getCause().getMessage());
+					}
+				} else {
+					userLOG.warn(" Exception: User login name already exists. Please choose a different name");
+					throw new Exception(
+							"User login name already exists. Please choose a different name");
+				}
+			} else {
+
+				entityManager.getTransaction().begin();
+				try {
+					
+					user.setLastModifiedBy(currentUser.getLogin());
+					user.setLastChangedOn(new Date());								
+					entityManager.merge(user);
+					entityManager.getTransaction().commit();
+					return null;
+				} catch (RuntimeException e) {
+					if (entityManager.getTransaction().isActive())
+						entityManager.getTransaction().rollback();
+					userLOG.warn(" Exception: " + e.getCause().getMessage());
+					e.printStackTrace();
+					throw new Exception(e.getCause().getMessage());
+				}
+			}
+		}
+	} /*
+	 * else {
+	 * userLOG.warn(" Exception: No sufficient priviledges to add/edit a User");
+	 * throw new Exception("No sufficient priviledges to add/edit a User"); }
+	 */
+
+	// }
+
+	public User updateUser(User user, User currentUser,
+			EntityManager entityManager, DataServiceImpl dataService) {
+		if (user.getLogin().isEmpty() || user.getPassword().isEmpty()) {
+			throw new IllegalArgumentException();
+		}
+		if (currentUser.getUserrole().equalsIgnoreCase("admin")
+				|| (currentUser.getId() == user.getId() && !user.getUserrole()
+						.equalsIgnoreCase("admin"))) {
+			synchronized (entityManager) {
+				entityManager.getTransaction().begin();
+				try {
+					// TODO: better solution?
+					if (currentUser.getId() == user.getId()) {
+						currentUser.setLogin(user.getLogin());
+						currentUser.setPassword(user.getPassword());
+						currentUser.setUserSettings(user.getUserSettings());
+						currentUser.setUserrole(user.getUserrole());
+						entityManager.merge(currentUser);
+						user = currentUser;
+					} else {
+						// TODO: handle other users
+					}
+
+					entityManager.getTransaction().commit();
+					dataService.setSessionUser(user);
+					return user;
+				} catch (RuntimeException e) {
+					entityManager.getTransaction().rollback();
+					userLOG.warn(" Exception: " + e.getCause().getMessage());
+					e.printStackTrace();
+					throw e;
+				}
+			}
+		} else {
+			throw new SecurityException();
+		}
+	}
+
+	public User removeUser(User user, User currentUser,
+			EntityManager entityManager) throws Exception {
+		if (currentUser.getUserrole().equalsIgnoreCase("admin")) {
+			entityManager.clear();
+			synchronized (entityManager) {
+				entityManager.getTransaction().begin();
+				try {
+					user = entityManager.merge(user);
+					user.getDevices().clear();
+					entityManager.remove(user);
+					entityManager.getTransaction().commit();
+					return user;
+				} catch (RuntimeException e) {
+					if (entityManager.getTransaction().isActive())
+						entityManager.getTransaction().rollback();
+					userLOG.warn(" Exception: " + e.getCause().getMessage());
+					e.printStackTrace();
+					throw new Exception(e.getCause().getMessage());
+				}
+			}
+		} else {
+			throw new SecurityException();
+		}
+	}
+
+}

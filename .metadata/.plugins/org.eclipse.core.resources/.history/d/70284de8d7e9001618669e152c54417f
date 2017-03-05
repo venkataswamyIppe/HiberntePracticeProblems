@@ -1,0 +1,27 @@
+package com.hibernate.pojo;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+public class Client {
+
+	public static void main(String[] args) {
+		Configuration cfg = new Configuration();
+		cfg.configure("hibernate.cfg.xml");
+		SessionFactory factory = cfg.buildSessionFactory();
+		Session session = factory.openSession();
+
+		Set<Author> howToProgramWithJava1Author = new HashSet<Author>();  
+        Set<Author> howToProgramWithJava2ndAuthor = new HashSet<Author>();  
+        Set<Author> howToPlayGuitarAuthor = new HashSet<Author>();
+        
+        Author author = new Author();  
+        author.setAuthorName("narayana");  
+        howToProgramWithJava1Author.add(author);
+
+}

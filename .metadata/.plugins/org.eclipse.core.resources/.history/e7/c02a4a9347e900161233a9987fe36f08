@@ -1,0 +1,10 @@
+package com.hibernate.pojo;
+
+import java.util.Set;
+
+public class Vendor {
+	private int vendorId;
+	private String vendorName;
+	private Set<Customer>customers;
+
+}

@@ -1,0 +1,31 @@
+package com.hibernate;
+
+import java.util.List;
+
+import org.hibernate.Criteria;
+import org.hibernate.Session;
+import org.hibernate.cfg.Configuration;
+import org.hibernate.criterion.Projection;
+import org.hibernate.criterion.ProjectionList;
+import org.hibernate.criterion.Projections;
+
+public class CriterailProjection {
+
+	public static void main(String[] args) {
+		Session session = new Configuration().configure("hibernate.cfg.xml").buildSessionFactory().openSession();
+		Criteria crit = session.createCriteria(Product.class);
+		Projection	p1=Projections.property("proName");
+		Projection	p2=Projections.property("price");
+		ProjectionList plist=Projections.projectionList();
+		plist.add(p1);
+		plist.add(p2);
+		crit.setProjection(plist);
+		List<String>list=crit.list();
+		for(String names:list)
+		{
+			System.out.println(names);
+		}
+		session.close();
+	}
+
+}

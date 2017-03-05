@@ -1,0 +1,21 @@
+package com.hibernate;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+public class ClientTest {
+
+	@SuppressWarnings({ "deprecation", "unused" })
+	public static void main(String[] args) {
+		Session session=new Configuration().configure("hibernate.cfg.xml").buildSessionFactory().openSession();
+		 Query qry = session.createQuery("delete from Product p where p.productId=?");
+		 qry.setParameter(0, 1);
+		 int res = qry.executeUpdate();
+		 System.out.println("Command successfully executed....");
+	     System.out.println("Numer of records effected due to delete query"+res);
+		session.close();
+		
+	}
+}

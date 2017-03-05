@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Welcome</title>
+</head>
+<body bgcolor="pink">
+	<center>
+		<h2>Student Registration</h2>
+		<form name="form1" method="post" action="Home">
+
+			Enter
+			Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input
+				type="text" name="name"></input><br /> <br /> Enter
+			Mark:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input
+				type="text" name="marks"></input><br /> <br /> Enter email
+			id:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"
+				name="email"></input><br /> <br />&nbsp;&nbsp; <input type="submit"
+				value="submit" name="submit">
+		</form>
+	</center>
+</body>
+</html>

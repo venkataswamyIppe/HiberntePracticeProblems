@@ -1,0 +1,10 @@
+package com.hibernate;
+
+public class Student {
+    private int stuid;
+    private String stuname;
+    private String stuemail;
+    private String stumarks;
+
+
+}

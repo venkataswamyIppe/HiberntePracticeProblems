@@ -1,0 +1,64 @@
+package com.hibernate.pojo;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+public class OneToManyClient {
+
+	public static void main(String[] args) {
+		Session session = new Configuration().configure("hibernate.cfg.xml")
+				.buildSessionFactory().openSession();
+		Transaction tx = session.beginTransaction();
+		Player p1 = new Player();
+		p1.setPname("sachin");
+		Player p2 = new Player();
+		p2.setPname("dhoni");
+		Player p3 = new Player();
+		p3.setPname("rohit");
+		session.save(p1);
+		session.save(p2);
+		session.save(p3);
+		session.flush();
+
+		Set<Player> cplayers = new HashSet<Player>();
+		cplayers.add(p1);
+		cplayers.add(p2);
+		cplayers.add(p3);
+
+		// add indian cricket team
+		Team tm = new Team();
+		tm.setTname("IndianCricket");
+		tm.setPlayers(cplayers);
+		session.save(tm);
+		session.flush();
+
+		Player pl1 = new Player();
+		pl1.setPname("mishba");
+		Player pl2 = new Player();
+		pl2.setPname("akmal");
+		Player pl3 = new Player();
+		pl3.setPname("salmanbut");
+		session.save(pl1);
+		session.save(pl2);
+		session.save(pl3);
+		session.flush();
+
+		Set<Player> pkPlayers = new HashSet<Player>();
+		pkPlayers.add(pl1);
+		pkPlayers.add(pl2);
+		pkPlayers.add(pl3);
+		// add pak cricket team
+		Team pktm = new Team();
+		pktm.setTname("PakistanCricket");
+		pktm.setPlayers(pkPlayers);
+		session.save(pktm);
+		session.flush();
+		tx.commit();
+		System.out.println("success");
+	}
+
+}

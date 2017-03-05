@@ -1,0 +1,17 @@
+package com.hibernate;
+
+import org.hibernate.Criteria;
+import org.hibernate.Session;
+import org.hibernate.cfg.Configuration;
+import org.hibernate.criterion.Criterion;
+
+public class ClientTest {
+
+	public static void main(String[] args) {
+		Session session = new Configuration().configure("hibernate.cfg.xml").buildSessionFactory().openSession();
+		Criteria crit = session.createCriteria(Product.class);
+		Criterion cn = Restrictions.gt("price",new Double(26000));
+
+	}
+
+}

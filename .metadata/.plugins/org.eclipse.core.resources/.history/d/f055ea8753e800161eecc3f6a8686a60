@@ -1,0 +1,15 @@
+package com.hibernate.pojo;
+
+import org.hibernate.Session;
+import org.hibernate.cfg.Configuration;
+
+public class OneToManyDeleteAllParentObjects {
+
+	public static void main(String[] args) {
+		Session session = new Configuration().configure("hibernate.cfg.xml")
+				.buildSessionFactory().openSession();
+		Query qry=session.createQuery("from Team tm");
+
+	}
+
+}

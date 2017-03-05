@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+ 
+<hibernate-mapping>
+<class name="com.hibernate.pojo.Product" table="product">
+<id name="id" column="mid">
+  <generator class="native"></generator>    
+</id>
+<property name="movieName"/>
+ 
+<property name="aid" insert="false" update="false" />
+ 
+</class>
+</hibernate-mapping>

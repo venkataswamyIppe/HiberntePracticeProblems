@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+ 
+<hibernate-mapping>
+<class name="com.hibernate.pojo.Actor" table="actor">
+ 
+<id name="tid">
+    <generator class="native"></generator>
+</id>
+<property name="tname"/>
+ <!--  to map child class-->
+ <set name="players" table="players" cascade="all" lazy="false">
+     <key column="tid" not-null="true"></key>
+     <one-to-many class="com.hibernate.pojo.Player"/>
+ </set>
+</class>
+</hibernate-mapping>

@@ -1,0 +1,6 @@
+package com.hibernate.pojo;
+
+@Entity
+public class Vendor {
+
+}

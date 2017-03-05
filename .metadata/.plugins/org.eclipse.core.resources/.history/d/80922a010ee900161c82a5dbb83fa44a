@@ -1,0 +1,24 @@
+package com.hibernate.pojo;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="employee111")
+public class Employee {
+	
+	@Id
+	@GeneratedValue
+	@Column(name="emp_id")
+	private Long employeeId;
+	
+	@Column(name="emp_name")
+	private String employeeName;
+	
+	@Column(name="emp_cell_phone")
+	private String employeecellphone;
+
+}

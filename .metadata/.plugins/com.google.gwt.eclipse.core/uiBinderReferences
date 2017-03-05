@@ -1,0 +1,2647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiBinderReferences>
+<referenceManager>
+<references>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/InterStateTaxDueNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/AccLedgerView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.container"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/RoleView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/FeedbackView.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/FeedbackView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/AccountingGroupsView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.button"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/InterStateTaxDueNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.toolbar"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/MapMenuBar.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.button"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UsersDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.button"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UserView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.toolbar"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/LoginDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.form"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/TripView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.container"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/MapMenuBar.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.form"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UserView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/AccountingGroupsView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.form"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/StateTaxDueNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.container"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UsersDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.form"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UsersDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.menu"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/Location.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.button"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ArchiveView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/EnquiryConsignmentView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.button"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuVehicleView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.container"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuTripView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.grid"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/MapMenuBar.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.menu"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ArchiveView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.toolbar"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UserSettingsDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.button"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/StatusView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.menu"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UserSettingsDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.form"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/DeviceDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/EnquiryConsignmentView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.menu"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/BePartOfUsView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.container"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/StateView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.grid"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ConsignmentView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.traccar.web.client.view.VehicleView$VehicleListUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/VehicleView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/FeedbackView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.menu"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/StateTaxDueNotificationView.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/StateTaxDueNotificationView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/MessagesView.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/MessagesView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/StateView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.container"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/VehicleView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.container"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/MapMenuBar.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/style.css"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/AreaView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/PollutionDueNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.traccar.web.client.view.UserView$UserListUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UserView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuTripView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.container"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/FeedbackView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.button"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuShipmentView.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuShipmentView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/EnquiryConsignmentView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.form"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.traccar.web.client.view.ConsignmentView$ConsignmentListUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ConsignmentView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/AccountingGroupsView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.menu"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.traccar.web.client.view.Location$LocationUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/Location.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/InvoiceView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.menu"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ApplicationSettingsDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UserDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.form"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ConsignmentView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuTripView.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuTripView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/BePartOfUsView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.grid"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/FCDueNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.form"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/StatusView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.form"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.traccar.web.client.view.AccLedgerView$AccLedgerListUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/AccLedgerView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/InterStateTaxDueNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/RoleView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.toolbar"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuShipmentView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.button"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/RoleView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/InvoiceView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.button"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.traccar.web.client.view.LoginDialog$LoginDialogUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/LoginDialog.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.traccar.web.client.view.MessagesView$MessagesListUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/MessagesView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.traccar.web.client.view.BePartOfUsView$BePartOfUsListUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/BePartOfUsView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UpdateRoleNodesMapping.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UpdateRoleNodesMapping.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/StateTaxDueNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.grid"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UsersDialog.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UsersDialog.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UserView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/VehicleAmountDueNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.form"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ApplicationSettingsDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/VehicleAmountDueNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.toolbar"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/MessagesView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/MessagesView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.grid"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuShipmentView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.container"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/EnquiryVehicleView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UserSettingsDialog.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UserSettingsDialog.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ApplicationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/PollutionDueNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.toolbar"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/FeedbackView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.form"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/AreaView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UserDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.button"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/FeedbackView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.toolbar"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/DeviceView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/VehicleAmountDueNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.button"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/Location.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.form"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/VehicleAmountDueNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/PollutionDueNotificationView.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/PollutionDueNotificationView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UserDeviceDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/LoginDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.button"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.traccar.web.client.view.RoleView$RoleListUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/RoleView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/EnquiryVehicleView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.toolbar"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ConsignmentView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.toolbar"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/StatusView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/VehicleAmountDueNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.menu"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UserDialog.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UserDialog.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UserDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.container"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.traccar.web.client.view.settings.VehicleAmountDueNotificationView$VehicleListUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/VehicleAmountDueNotificationView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/AccountingGroupsView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/AccLedgerView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.form"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/TripView.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/TripView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.traccar.web.client.view.settings.StateTaxDueNotificationView$VehicleListUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/StateTaxDueNotificationView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/AccountingGroupsView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.container"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/StateTaxDueNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.form"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.traccar.web.client.view.MapMenuBar$MapMenuBarUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/MapMenuBar.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.traccar.web.client.view.FeedbackView$FeedbackListUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/FeedbackView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/AccountingGroupsView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.toolbar"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.traccar.web.client.view.StateView$StateViewUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/StateView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/EnquiryConsignmentView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.toolbar"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/MapMenuBar.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UserView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.form"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/TripView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.form"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/InvoiceView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/VehicleInsuranceNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.toolbar"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ArchiveView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.form"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/VehicleInsuranceNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.container"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuConsignmentView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/BePartOfUsView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.button"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UserSettingsDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.container"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/PollutionDueNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.container"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/FeedbackView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ConsignmentView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.menu"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.traccar.web.client.view.settings.FCDueNotificationView$VehicleListUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/FCDueNotificationView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ConsignmentView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.grid"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/VehicleView.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/VehicleView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/FeedbackView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.container"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/BePartOfUsView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.menu"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/StateView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.button"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/PollutionDueNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.grid"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/DeviceView.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/DeviceView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ArchiveView.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/style.css"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuVehicleView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.button"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/PollutionDueNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.traccar.web.client.view.EnquiryConsignmentView$EnquiryConsignmentListUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/EnquiryConsignmentView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.traccar.web.client.view.StatusView$StatusListUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/StatusView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ConsignmentView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.button"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuVehicleView.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuVehicleView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.traccar.web.client.view.UserDialog$UserDialogUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UserDialog.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuShipmentView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.menu"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/AccountingGroupsView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.grid"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ApplicationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuVehicleView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.grid"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/BePartOfUsView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/DeviceDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.form"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ApplicationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.container"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuConsignmentView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.toolbar"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/InsuranceNotificationConfigView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuVehicleView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.menu"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuShipmentView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.grid"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UserSettingsDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/StatusView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.toolbar"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.traccar.web.client.view.ViewMenuTripView$ViewMenuTripListUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuTripView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/RoleView.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/RoleView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/InvoiceView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.toolbar"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/StatusView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.grid"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/InterStateTaxDueNotificationView.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/InterStateTaxDueNotificationView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/VehicleView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.button"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuShipmentView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.toolbar"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/StatusView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/VehicleView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.toolbar"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.traccar.web.client.view.ApplicationView$ApplicationViewUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ApplicationView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuConsignmentView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.menu"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuConsignmentView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.grid"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/VehicleView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/StatusView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.button"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.traccar.web.client.view.ApplicationSettingsDialog$ApplicationSettingsDialogUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ApplicationSettingsDialog.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.traccar.web.client.view.UsersDialog$UsersDialogUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UsersDialog.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/VehicleView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.menu"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/VehicleView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.grid"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuTripView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.form"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ApplicationView.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ApplicationView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuConsignmentView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.button"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/MessagesView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/VehicleInsuranceNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuConsignmentView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.container"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/VehicleInsuranceNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.menu"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/InsuranceNotificationConfigView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.form"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/StatusView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.container"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/VehicleInsuranceNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.grid"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UserDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/DeviceDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/AccLedgerView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.toolbar"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/InterStateTaxDueNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.container"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ArchiveView.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ArchiveView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/TripView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.toolbar"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.traccar.web.client.view.ViewMenuConsignmentView$ViewMenuConsignmentListUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuConsignmentView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UserDeviceDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.button"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UserView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.container"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/StateView.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/StateView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/TripView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/AccLedgerView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/StateTaxDueNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.toolbar"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/VehicleInsuranceNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.button"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/StateTaxDueNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/MessagesView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.button"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuVehicleView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.traccar.web.client.view.ViewMenuVehicleView$ViewMenuVehicleListUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuVehicleView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.traccar.web.client.view.EnquiryVehicleView$EnquiryVehicleListUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/EnquiryVehicleView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ArchiveView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.container"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuVehicleView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.toolbar"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/VehicleInsuranceNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.form"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/EnquiryConsignmentView.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/EnquiryConsignmentView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UserDeviceDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.menu"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/MessagesView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.menu"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UserDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/BePartOfUsView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/BePartOfUsView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.toolbar"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/InsuranceNotificationConfigView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.grid"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/FCDueNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/EnquiryVehicleView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.menu"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/VehicleView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuTripView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ApplicationSettingsDialog.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ApplicationSettingsDialog.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/PollutionDueNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.menu"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/AreaView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.form"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuConsignmentView.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuConsignmentView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/DeviceView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.form"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuVehicleView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/InvoiceView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.grid"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/EnquiryVehicleView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.button"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UserDeviceDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.form"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ApplicationSettingsDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.container"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/MessagesView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.form"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/PollutionDueNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.button"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuShipmentView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ArchiveView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.grid"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UpdateRoleNodesMapping.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.button"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ConsignmentView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.container"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuConsignmentView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.form"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/DeviceDialog.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/DeviceDialog.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.traccar.web.client.view.ArchiveView$ArchiveViewUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ArchiveView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/StateView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/AreaView.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/AreaView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/RoleView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.form"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/AccountingGroupsView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.traccar.web.client.view.UserSettingsDialog$UserSettingsDialogUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UserSettingsDialog.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.traccar.web.client.view.UpdateRoleNodesMapping$RoleNodesUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UpdateRoleNodesMapping.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/EnquiryConsignmentView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.grid"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/LoginDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/BePartOfUsView.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/BePartOfUsView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/StateTaxDueNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/MapMenuBar.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/InvoiceView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.container"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/EnquiryConsignmentView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UserView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.grid"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.traccar.web.client.view.InvoiceView$InvoiceListUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/InvoiceView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/VehicleAmountDueNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.container"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.traccar.web.client.view.settings.InsuranceNotificationConfigView$InsuranceNotificationConfigListUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/InsuranceNotificationConfigView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/FeedbackView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.grid"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UserDeviceDialog.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UserDeviceDialog.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/FeedbackView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/StateView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.toolbar"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/StateView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/PollutionDueNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.form"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UpdateRoleNodesMapping.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.form"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ConsignmentView.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ConsignmentView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/Location.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.traccar.web.client.view.TripView$TripListUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/TripView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/MessagesView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.container"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.traccar.web.client.view.UserDeviceDialog$UserDeviceDialogUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UserDeviceDialog.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ApplicationSettingsDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.form"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/DeviceDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.button"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/InterStateTaxDueNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.grid"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/EnquiryConsignmentView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.container"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuConsignmentView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/VehicleAmountDueNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.grid"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/FCDueNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/AccountingGroupsView.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/AccountingGroupsView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/EnquiryVehicleView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.form"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ConsignmentView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.form"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/DeviceDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.container"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/FCDueNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.grid"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/InterStateTaxDueNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.form"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/StateTaxDueNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.menu"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UserView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.button"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/TripView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.button"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UsersDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.toolbar"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/LoginDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UsersDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UsersDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.container"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/AccLedgerView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.menu"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/MapMenuBar.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.toolbar"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/LoginDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.container"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ArchiveView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.button"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/InterStateTaxDueNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.menu"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/MapMenuBar.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.container"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UserView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.menu"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuVehicleView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.form"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ApplicationSettingsDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.button"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/VehicleInsuranceNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UserView.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UserView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/StateTaxDueNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.button"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/AreaView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.grid"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/AccLedgerView.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/AccLedgerView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UserSettingsDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/InsuranceNotificationConfigView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.traccar.web.client.view.settings.InterStateTaxDueNotificationView$VehicleListUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/InterStateTaxDueNotificationView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.traccar.web.client.view.DeviceView$DeviceListUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/DeviceView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/BePartOfUsView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.form"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.traccar.web.client.view.AreaView$AreaListUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/AreaView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/AccLedgerView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.button"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/InterStateTaxDueNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.button"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuTripView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.button"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/InvoiceView.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/InvoiceView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/FCDueNotificationView.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/FCDueNotificationView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/MapMenuBar.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="org.traccar.web.client.view"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/EnquiryVehicleView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.grid"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/Location.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.container"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/DeviceView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.toolbar"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/AreaView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.toolbar"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/StatusView.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/StatusView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/MapMenuBar.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.grid"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UpdateRoleNodesMapping.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UpdateRoleNodesMapping.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.container"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UserDeviceDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.toolbar"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/MessagesView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.toolbar"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ArchiveView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.traccar.web.client.view.ViewMenuShipmentView$ViewMenuShipmentListUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuShipmentView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/Location.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/RoleView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.grid"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/EnquiryVehicleView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/EnquiryVehicleView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.container"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/VehicleInsuranceNotificationView.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/VehicleInsuranceNotificationView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/InsuranceNotificationConfigView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.container"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/FCDueNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.toolbar"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/MapMenuBar.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/MapMenuBar.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/RoleView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.button"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/InsuranceNotificationConfigView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.button"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.traccar.web.client.view.AccountingGroupsView$AccountingGroupsListUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/AccountingGroupsView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/RoleView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.container"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/FCDueNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.menu"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.traccar.web.client.view.settings.VehicleInsuranceNotificationView$VehicleListUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/VehicleInsuranceNotificationView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/InvoiceView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/InvoiceView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.form"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/EnquiryVehicleView.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/EnquiryVehicleView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/AccLedgerView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/RoleView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.menu"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/AccLedgerView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.grid"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UsersDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/TripView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/VehicleAmountDueNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuTripView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.menu"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/AreaView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.menu"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UsersDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.grid"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/InsuranceNotificationConfigView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.menu"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UserDeviceDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuShipmentView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuShipmentView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.form"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UserDeviceDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.grid"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.traccar.web.client.view.DeviceDialog$DeviceDialogUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/DeviceDialog.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/DeviceView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.menu"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/DeviceView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.grid"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/AreaView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.button"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/VehicleView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.form"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/Location.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/Location.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/AreaView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.container"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuTripView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.toolbar"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/DeviceView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.container"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/ViewMenuTripView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/DeviceView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/TripView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.menu"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/UserDeviceDialog.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.container"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/TripView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.grid"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/VehicleAmountDueNotificationView.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/VehicleAmountDueNotificationView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="org.traccar.web.client.view.settings.PollutionDueNotificationView$VehicleListUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/PollutionDueNotificationView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/FCDueNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.button"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/DeviceView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.button"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/EnquiryConsignmentView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/FCDueNotificationView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.container"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/InsuranceNotificationConfigView.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sencha.gxt.widget.core.client.toolbar"/>
+</targetLocation>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/InsuranceNotificationConfigView.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/settings/InsuranceNotificationConfigView.ui.xml"/>
+</reference>
+<reference sourceProject="traccar">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/LoginDialog.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="org/traccar/web/client/view/LoginDialog.ui.xml"/>
+</reference>
+</references>
+</referenceManager>
+<uiBinderSubtypeToOwner/>
+<uiBinderSubtypeToUiXml/>
+<uiXmlReferencedFields>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuVehicleView.ui.xml" name="layoutData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuVehicleView.ui.xml" name="statusFilter"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuVehicleView.ui.xml" name="toolBarRowData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuVehicleView.ui.xml" name="contentPanel1"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuVehicleView.ui.xml" name="refresh"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuVehicleView.ui.xml" name="icons"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuVehicleView.ui.xml" name="columnModel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuVehicleView.ui.xml" name="vehicleStore"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuVehicleView.ui.xml" name="layoutPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuVehicleView.ui.xml" name="view"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuVehicleView.ui.xml" name="contentPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuVehicleView.ui.xml" name="grid"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuVehicleView.ui.xml" name="vehicleFilter"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/BePartOfUsView.ui.xml" name="layoutData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/BePartOfUsView.ui.xml" name="toolBarRowData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/BePartOfUsView.ui.xml" name="contentPanel1"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/BePartOfUsView.ui.xml" name="refresh"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/BePartOfUsView.ui.xml" name="icons"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/BePartOfUsView.ui.xml" name="columnModel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/BePartOfUsView.ui.xml" name="layoutPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/BePartOfUsView.ui.xml" name="view"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/BePartOfUsView.ui.xml" name="contentPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/BePartOfUsView.ui.xml" name="addBePartOfUs"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/BePartOfUsView.ui.xml" name="grid"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/BePartOfUsView.ui.xml" name="bePartOfUsStore"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UsersDialog.ui.xml" name="layoutData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UsersDialog.ui.xml" name="view"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UsersDialog.ui.xml" name="contentPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UsersDialog.ui.xml" name="toolBarRowData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UsersDialog.ui.xml" name="userStore"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UsersDialog.ui.xml" name="grid"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UsersDialog.ui.xml" name="removeButton"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UsersDialog.ui.xml" name="addButton"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UsersDialog.ui.xml" name="window"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UsersDialog.ui.xml" name="columnModel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuShipmentView.ui.xml" name="shipmentStore"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuShipmentView.ui.xml" name="layoutPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuShipmentView.ui.xml" name="layoutData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuShipmentView.ui.xml" name="view"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuShipmentView.ui.xml" name="contentPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuShipmentView.ui.xml" name="toolBarRowData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuShipmentView.ui.xml" name="contentPanel1"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuShipmentView.ui.xml" name="grid"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuShipmentView.ui.xml" name="refresh"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuShipmentView.ui.xml" name="icons"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuShipmentView.ui.xml" name="columnModel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/LoginDialog.ui.xml" name="submitButton"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/LoginDialog.ui.xml" name="password"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/LoginDialog.ui.xml" name="verticalLayoutData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/LoginDialog.ui.xml" name="registerButton"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/LoginDialog.ui.xml" name="loginButton"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/LoginDialog.ui.xml" name="window"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/LoginDialog.ui.xml" name="login"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/VehicleAmountDueNotificationView.ui.xml" name="layoutPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/VehicleAmountDueNotificationView.ui.xml" name="layoutData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/VehicleAmountDueNotificationView.ui.xml" name="view"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/VehicleAmountDueNotificationView.ui.xml" name="toolBarRowData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/VehicleAmountDueNotificationView.ui.xml" name="contentPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/VehicleAmountDueNotificationView.ui.xml" name="contentPanel1"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/VehicleAmountDueNotificationView.ui.xml" name="grid"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/VehicleAmountDueNotificationView.ui.xml" name="addVehicle"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/VehicleAmountDueNotificationView.ui.xml" name="icons"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/VehicleAmountDueNotificationView.ui.xml" name="columnModel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/VehicleAmountDueNotificationView.ui.xml" name="vehicleStore"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ArchiveView.ui.xml" name="layoutData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ArchiveView.ui.xml" name="toolBarRowData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ArchiveView.ui.xml" name="contentPanel1"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ArchiveView.ui.xml" name="toDate"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ArchiveView.ui.xml" name="loadButton"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ArchiveView.ui.xml" name="icons"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ArchiveView.ui.xml" name="columnModel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ArchiveView.ui.xml" name="fromDate"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ArchiveView.ui.xml" name="layoutPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ArchiveView.ui.xml" name="view"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ArchiveView.ui.xml" name="clearButton"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ArchiveView.ui.xml" name="contentPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ArchiveView.ui.xml" name="vehicleCombo"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ArchiveView.ui.xml" name="grid"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ArchiveView.ui.xml" name="fromTime"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ArchiveView.ui.xml" name="style"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ArchiveView.ui.xml" name="positionStore"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ArchiveView.ui.xml" name="toTime"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ApplicationSettingsDialog.ui.xml" name="registrationEnabled"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ApplicationSettingsDialog.ui.xml" name="cancelButton"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ApplicationSettingsDialog.ui.xml" name="verticalLayoutData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ApplicationSettingsDialog.ui.xml" name="window"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ApplicationSettingsDialog.ui.xml" name="saveButton"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UpdateRoleNodesMapping.ui.xml" name="margins"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UpdateRoleNodesMapping.ui.xml" name="layoutData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UpdateRoleNodesMapping.ui.xml" name="field"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UpdateRoleNodesMapping.ui.xml" name="save"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UpdateRoleNodesMapping.ui.xml" name="roleName"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UpdateRoleNodesMapping.ui.xml" name="panel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UpdateRoleNodesMapping.ui.xml" name="marginData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/PollutionDueNotificationView.ui.xml" name="layoutPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/PollutionDueNotificationView.ui.xml" name="layoutData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/PollutionDueNotificationView.ui.xml" name="view"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/PollutionDueNotificationView.ui.xml" name="toolBarRowData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/PollutionDueNotificationView.ui.xml" name="contentPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/PollutionDueNotificationView.ui.xml" name="contentPanel1"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/PollutionDueNotificationView.ui.xml" name="grid"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/PollutionDueNotificationView.ui.xml" name="addVehicle"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/PollutionDueNotificationView.ui.xml" name="icons"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/PollutionDueNotificationView.ui.xml" name="columnModel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/PollutionDueNotificationView.ui.xml" name="vehicleStore"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UserDeviceDialog.ui.xml" name="layoutData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UserDeviceDialog.ui.xml" name="view"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UserDeviceDialog.ui.xml" name="toolBarRowData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UserDeviceDialog.ui.xml" name="contentPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UserDeviceDialog.ui.xml" name="grid"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UserDeviceDialog.ui.xml" name="editButton"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UserDeviceDialog.ui.xml" name="removeButton"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UserDeviceDialog.ui.xml" name="addButton"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UserDeviceDialog.ui.xml" name="window"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UserDeviceDialog.ui.xml" name="deviceStore"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UserDeviceDialog.ui.xml" name="columnModel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/AccLedgerView.ui.xml" name="layoutPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/AccLedgerView.ui.xml" name="layoutData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/AccLedgerView.ui.xml" name="view"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/AccLedgerView.ui.xml" name="toolBarRowData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/AccLedgerView.ui.xml" name="contentPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/AccLedgerView.ui.xml" name="grid"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/AccLedgerView.ui.xml" name="contentPanel1"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/AccLedgerView.ui.xml" name="accLedgerStore"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/AccLedgerView.ui.xml" name="addAccLedger"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/AccLedgerView.ui.xml" name="icons"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/AccLedgerView.ui.xml" name="columnModel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ConsignmentView.ui.xml" name="layoutData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ConsignmentView.ui.xml" name="consignmentStore"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ConsignmentView.ui.xml" name="toolBarRowData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ConsignmentView.ui.xml" name="contentPanel1"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ConsignmentView.ui.xml" name="consFilter"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ConsignmentView.ui.xml" name="refresh"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ConsignmentView.ui.xml" name="addConsignment"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ConsignmentView.ui.xml" name="icons"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ConsignmentView.ui.xml" name="columnModel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ConsignmentView.ui.xml" name="layoutPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ConsignmentView.ui.xml" name="view"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ConsignmentView.ui.xml" name="contentPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ConsignmentView.ui.xml" name="grid"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ConsignmentView.ui.xml" name="userFilter"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/AccountingGroupsView.ui.xml" name="layoutPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/AccountingGroupsView.ui.xml" name="layoutData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/AccountingGroupsView.ui.xml" name="view"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/AccountingGroupsView.ui.xml" name="toolBarRowData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/AccountingGroupsView.ui.xml" name="contentPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/AccountingGroupsView.ui.xml" name="grid"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/AccountingGroupsView.ui.xml" name="contentPanel1"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/AccountingGroupsView.ui.xml" name="accountingGroupsStore"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/AccountingGroupsView.ui.xml" name="addAccountingGroups"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/AccountingGroupsView.ui.xml" name="icons"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/AccountingGroupsView.ui.xml" name="columnModel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/Location.ui.xml" name="verticalLayoutData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/Location.ui.xml" name="contentPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/Location.ui.xml" name="SearchButton"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/Location.ui.xml" name="location"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/InterStateTaxDueNotificationView.ui.xml" name="layoutPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/InterStateTaxDueNotificationView.ui.xml" name="layoutData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/InterStateTaxDueNotificationView.ui.xml" name="view"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/InterStateTaxDueNotificationView.ui.xml" name="toolBarRowData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/InterStateTaxDueNotificationView.ui.xml" name="contentPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/InterStateTaxDueNotificationView.ui.xml" name="grid"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/InterStateTaxDueNotificationView.ui.xml" name="contentPanel1"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/InterStateTaxDueNotificationView.ui.xml" name="addVehicle"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/InterStateTaxDueNotificationView.ui.xml" name="icons"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/InterStateTaxDueNotificationView.ui.xml" name="columnModel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/InterStateTaxDueNotificationView.ui.xml" name="vehicleStore"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UserView.ui.xml" name="layoutData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UserView.ui.xml" name="toolBarRowData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UserView.ui.xml" name="userStore"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UserView.ui.xml" name="uploadexcel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UserView.ui.xml" name="contentPanel1"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UserView.ui.xml" name="addUser"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UserView.ui.xml" name="refresh"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UserView.ui.xml" name="roleFilter"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UserView.ui.xml" name="icons"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UserView.ui.xml" name="columnModel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UserView.ui.xml" name="layoutPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UserView.ui.xml" name="view"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UserView.ui.xml" name="contentPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UserView.ui.xml" name="grid"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UserView.ui.xml" name="userFilter"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UserView.ui.xml" name="compFilter"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/AreaView.ui.xml" name="layoutData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/AreaView.ui.xml" name="areaStore"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/AreaView.ui.xml" name="toolBarRowData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/AreaView.ui.xml" name="contentPanel1"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/AreaView.ui.xml" name="refresh"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/AreaView.ui.xml" name="icons"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/AreaView.ui.xml" name="columnModel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/AreaView.ui.xml" name="addArea"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/AreaView.ui.xml" name="layoutPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/AreaView.ui.xml" name="view"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/AreaView.ui.xml" name="contentPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/AreaView.ui.xml" name="grid"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="TripReport"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="consignmentsMenu"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="toolBarRowData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="mySuggestBox"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="toolBarRowData1"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="toolBarRowData2"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="toolBarRowData3"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="toolBarRowData4"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="enquiryVehicles"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="notificationIcon"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="feedback"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="notification"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="DieselReport"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="invoices"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="area"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="tripsMenu"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="devices"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="tripAmount"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="consignmentData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="VehicleData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="mapIcon"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="DrivenDistance"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="contentPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="accLedger"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="StateTaxNotification"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="MessageInbox"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="style"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="InterStateTaxNotification"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="status"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="accountingGroups"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="ConsigneeReport"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="UserData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="financial"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="roles"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="admin"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="enquiryConsignments"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="vehiclesMenu"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="shipmentsMenu"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="newTrips"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="loginUser"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="AmountNotification"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="ConsignorReport"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="enquiryBeParofus"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="logoutLink"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="tripData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="icons"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="PollutionDueNotification"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MapMenuBar.ui.xml" name="FcNotification"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/DeviceDialog.ui.xml" name="cancelButton"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/DeviceDialog.ui.xml" name="verticalLayoutData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/DeviceDialog.ui.xml" name="name"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/DeviceDialog.ui.xml" name="vehicleNumber"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/DeviceDialog.ui.xml" name="window"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/DeviceDialog.ui.xml" name="saveButton"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/DeviceDialog.ui.xml" name="uniqueId"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/VehicleView.ui.xml" name="layoutData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/VehicleView.ui.xml" name="toolBarRowData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/VehicleView.ui.xml" name="uploadexcel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/VehicleView.ui.xml" name="contentPanel1"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/VehicleView.ui.xml" name="refresh"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/VehicleView.ui.xml" name="addVehicle"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/VehicleView.ui.xml" name="deviceFilter"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/VehicleView.ui.xml" name="icons"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/VehicleView.ui.xml" name="columnModel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/VehicleView.ui.xml" name="vehicleStore"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/VehicleView.ui.xml" name="layoutPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/VehicleView.ui.xml" name="view"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/VehicleView.ui.xml" name="contentPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/VehicleView.ui.xml" name="grid"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/VehicleView.ui.xml" name="vehicleFilter"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/VehicleView.ui.xml" name="userFilter"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/RoleView.ui.xml" name="layoutPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/RoleView.ui.xml" name="layoutData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/RoleView.ui.xml" name="view"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/RoleView.ui.xml" name="toolBarRowData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/RoleView.ui.xml" name="contentPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/RoleView.ui.xml" name="roleStore"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/RoleView.ui.xml" name="contentPanel1"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/RoleView.ui.xml" name="grid"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/RoleView.ui.xml" name="icons"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/RoleView.ui.xml" name="columnModel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/RoleView.ui.xml" name="addRole"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MessagesView.ui.xml" name="layoutData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MessagesView.ui.xml" name="toolBarRowData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MessagesView.ui.xml" name="vehFilter"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MessagesView.ui.xml" name="contentPanel1"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MessagesView.ui.xml" name="deleteAll"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MessagesView.ui.xml" name="refresh"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MessagesView.ui.xml" name="icons"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MessagesView.ui.xml" name="columnModel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MessagesView.ui.xml" name="messagesStore"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MessagesView.ui.xml" name="addMessage"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MessagesView.ui.xml" name="subFilter"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MessagesView.ui.xml" name="layoutPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MessagesView.ui.xml" name="view"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MessagesView.ui.xml" name="contentPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/MessagesView.ui.xml" name="grid"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/InsuranceNotificationConfigView.ui.xml" name="insuranceNotificationConfigStore"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/InsuranceNotificationConfigView.ui.xml" name="layoutPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/InsuranceNotificationConfigView.ui.xml" name="layoutData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/InsuranceNotificationConfigView.ui.xml" name="view"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/InsuranceNotificationConfigView.ui.xml" name="contentPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/InsuranceNotificationConfigView.ui.xml" name="toolBarRowData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/InsuranceNotificationConfigView.ui.xml" name="grid"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/InsuranceNotificationConfigView.ui.xml" name="contentPanel1"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/InsuranceNotificationConfigView.ui.xml" name="removeInsuranceNotificationConfig"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/InsuranceNotificationConfigView.ui.xml" name="icons"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/InsuranceNotificationConfigView.ui.xml" name="columnModel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuTripView.ui.xml" name="tripStore"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuTripView.ui.xml" name="layoutData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuTripView.ui.xml" name="statusFilter"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuTripView.ui.xml" name="toolBarRowData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuTripView.ui.xml" name="contentPanel1"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuTripView.ui.xml" name="refresh"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuTripView.ui.xml" name="icons"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuTripView.ui.xml" name="columnModel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuTripView.ui.xml" name="layoutPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuTripView.ui.xml" name="view"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuTripView.ui.xml" name="contentPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuTripView.ui.xml" name="grid"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuTripView.ui.xml" name="vehicleFilter"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/TripView.ui.xml" name="layoutData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/TripView.ui.xml" name="tripStore"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/TripView.ui.xml" name="statusFilter"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/TripView.ui.xml" name="toolBarRowData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/TripView.ui.xml" name="contentPanel1"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/TripView.ui.xml" name="uploadexcel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/TripView.ui.xml" name="consignmentFilter"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/TripView.ui.xml" name="refresh"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/TripView.ui.xml" name="icons"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/TripView.ui.xml" name="addTrip"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/TripView.ui.xml" name="consignorFilter"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/TripView.ui.xml" name="columnModel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/TripView.ui.xml" name="consigneeFilter"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/TripView.ui.xml" name="layoutPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/TripView.ui.xml" name="view"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/TripView.ui.xml" name="contentPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/TripView.ui.xml" name="grid"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/TripView.ui.xml" name="vehicleFilter"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/TripView.ui.xml" name="userFilter"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/DeviceView.ui.xml" name="layoutData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/DeviceView.ui.xml" name="toolBarRowData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/DeviceView.ui.xml" name="uploadexcel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/DeviceView.ui.xml" name="contentPanel1"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/DeviceView.ui.xml" name="refresh"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/DeviceView.ui.xml" name="deviceStore"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/DeviceView.ui.xml" name="icons"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/DeviceView.ui.xml" name="columnModel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/DeviceView.ui.xml" name="layoutPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/DeviceView.ui.xml" name="view"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/DeviceView.ui.xml" name="contentPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/DeviceView.ui.xml" name="addDevice"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/DeviceView.ui.xml" name="imeiFilter"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/DeviceView.ui.xml" name="grid"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/DeviceView.ui.xml" name="vehicleFilter"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/DeviceView.ui.xml" name="gsmFilter"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/StateTaxDueNotificationView.ui.xml" name="layoutPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/StateTaxDueNotificationView.ui.xml" name="layoutData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/StateTaxDueNotificationView.ui.xml" name="view"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/StateTaxDueNotificationView.ui.xml" name="toolBarRowData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/StateTaxDueNotificationView.ui.xml" name="contentPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/StateTaxDueNotificationView.ui.xml" name="contentPanel1"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/StateTaxDueNotificationView.ui.xml" name="grid"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/StateTaxDueNotificationView.ui.xml" name="addVehicle"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/StateTaxDueNotificationView.ui.xml" name="icons"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/StateTaxDueNotificationView.ui.xml" name="columnModel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/StateTaxDueNotificationView.ui.xml" name="vehicleStore"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UserDialog.ui.xml" name="cancelButton"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UserDialog.ui.xml" name="password"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UserDialog.ui.xml" name="verticalLayoutData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UserDialog.ui.xml" name="admin"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UserDialog.ui.xml" name="window"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UserDialog.ui.xml" name="saveButton"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UserDialog.ui.xml" name="login"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/EnquiryConsignmentView.ui.xml" name="layoutPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/EnquiryConsignmentView.ui.xml" name="layoutData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/EnquiryConsignmentView.ui.xml" name="view"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/EnquiryConsignmentView.ui.xml" name="contentPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/EnquiryConsignmentView.ui.xml" name="toolBarRowData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/EnquiryConsignmentView.ui.xml" name="grid"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/EnquiryConsignmentView.ui.xml" name="contentPanel1"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/EnquiryConsignmentView.ui.xml" name="enquiryConsignmentStore"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/EnquiryConsignmentView.ui.xml" name="addEnquiryConsignment"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/EnquiryConsignmentView.ui.xml" name="icons"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/EnquiryConsignmentView.ui.xml" name="columnModel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/StateView.ui.xml" name="view"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/StateView.ui.xml" name="contentPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/StateView.ui.xml" name="stateStore"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/StateView.ui.xml" name="grid"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/StateView.ui.xml" name="columnModel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/FCDueNotificationView.ui.xml" name="layoutPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/FCDueNotificationView.ui.xml" name="layoutData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/FCDueNotificationView.ui.xml" name="view"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/FCDueNotificationView.ui.xml" name="contentPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/FCDueNotificationView.ui.xml" name="toolBarRowData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/FCDueNotificationView.ui.xml" name="grid"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/FCDueNotificationView.ui.xml" name="contentPanel1"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/FCDueNotificationView.ui.xml" name="addVehicle"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/FCDueNotificationView.ui.xml" name="icons"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/FCDueNotificationView.ui.xml" name="columnModel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/FCDueNotificationView.ui.xml" name="vehicleStore"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuConsignmentView.ui.xml" name="layoutPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuConsignmentView.ui.xml" name="layoutData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuConsignmentView.ui.xml" name="consignmentStore"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuConsignmentView.ui.xml" name="view"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuConsignmentView.ui.xml" name="toolBarRowData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuConsignmentView.ui.xml" name="contentPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ViewMenuConsignmentView.ui.xml" name="icons"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ApplicationView.ui.xml" name="centerMargins"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ApplicationView.ui.xml" name="centerPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ApplicationView.ui.xml" name="topMargins"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ApplicationView.ui.xml" name="centerData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ApplicationView.ui.xml" name="leftPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ApplicationView.ui.xml" name="archivePanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ApplicationView.ui.xml" name="leftBorderLayout"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ApplicationView.ui.xml" name="MapMenuBarPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ApplicationView.ui.xml" name="centerBorderLayout"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ApplicationView.ui.xml" name="fullLayout"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ApplicationView.ui.xml" name="southData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ApplicationView.ui.xml" name="northData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ApplicationView.ui.xml" name="southMargins"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ApplicationView.ui.xml" name="westData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ApplicationView.ui.xml" name="bottomData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ApplicationView.ui.xml" name="southLayout"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/ApplicationView.ui.xml" name="westMargins"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UserSettingsDialog.ui.xml" name="speedUnit"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UserSettingsDialog.ui.xml" name="cancelButton"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UserSettingsDialog.ui.xml" name="verticalLayoutData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UserSettingsDialog.ui.xml" name="window"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/UserSettingsDialog.ui.xml" name="saveButton"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/StatusView.ui.xml" name="layoutPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/StatusView.ui.xml" name="layoutData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/StatusView.ui.xml" name="view"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/StatusView.ui.xml" name="toolBarRowData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/StatusView.ui.xml" name="contentPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/StatusView.ui.xml" name="grid"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/StatusView.ui.xml" name="contentPanel1"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/StatusView.ui.xml" name="addStatus"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/StatusView.ui.xml" name="statusStore"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/StatusView.ui.xml" name="icons"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/StatusView.ui.xml" name="columnModel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/VehicleInsuranceNotificationView.ui.xml" name="layoutPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/VehicleInsuranceNotificationView.ui.xml" name="layoutData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/VehicleInsuranceNotificationView.ui.xml" name="view"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/VehicleInsuranceNotificationView.ui.xml" name="toolBarRowData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/VehicleInsuranceNotificationView.ui.xml" name="contentPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/VehicleInsuranceNotificationView.ui.xml" name="contentPanel1"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/VehicleInsuranceNotificationView.ui.xml" name="grid"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/VehicleInsuranceNotificationView.ui.xml" name="addVehicle"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/VehicleInsuranceNotificationView.ui.xml" name="icons"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/VehicleInsuranceNotificationView.ui.xml" name="columnModel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/settings/VehicleInsuranceNotificationView.ui.xml" name="vehicleStore"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/EnquiryVehicleView.ui.xml" name="layoutPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/EnquiryVehicleView.ui.xml" name="layoutData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/EnquiryVehicleView.ui.xml" name="view"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/EnquiryVehicleView.ui.xml" name="toolBarRowData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/EnquiryVehicleView.ui.xml" name="contentPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/EnquiryVehicleView.ui.xml" name="contentPanel1"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/EnquiryVehicleView.ui.xml" name="grid"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/EnquiryVehicleView.ui.xml" name="enquiryVehicleStore"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/EnquiryVehicleView.ui.xml" name="icons"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/EnquiryVehicleView.ui.xml" name="columnModel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/EnquiryVehicleView.ui.xml" name="addEnquiryVehicle"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/InvoiceView.ui.xml" name="layoutData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/InvoiceView.ui.xml" name="toolBarRowData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/InvoiceView.ui.xml" name="contentPanel1"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/InvoiceView.ui.xml" name="icons"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/InvoiceView.ui.xml" name="columnModel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/InvoiceView.ui.xml" name="layoutPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/InvoiceView.ui.xml" name="removeInvoice"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/InvoiceView.ui.xml" name="view"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/InvoiceView.ui.xml" name="contentPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/InvoiceView.ui.xml" name="grid"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/InvoiceView.ui.xml" name="invoiceStore"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/InvoiceView.ui.xml" name="addInvoice"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/FeedbackView.ui.xml" name="layoutData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/FeedbackView.ui.xml" name="toolBarRowData"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/FeedbackView.ui.xml" name="addFeedback"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/FeedbackView.ui.xml" name="contentPanel1"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/FeedbackView.ui.xml" name="refresh"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/FeedbackView.ui.xml" name="icons"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/FeedbackView.ui.xml" name="columnModel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/FeedbackView.ui.xml" name="layoutPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/FeedbackView.ui.xml" name="view"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/FeedbackView.ui.xml" name="contentPanel"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/FeedbackView.ui.xml" name="grid"/>
+<uiField location="/traccar/src/org/traccar/web/client/view/FeedbackView.ui.xml" name="feedbackStore"/>
+</uiXmlReferencedFields>
+</uiBinderReferences>
